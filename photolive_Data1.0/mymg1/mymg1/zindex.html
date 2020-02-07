@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $.ajax({
+                type: "GET",//方法类型 
+                //dataType: "json",//预期服务器返回的数据类型
+                url: "http://localhost:3001/api/getAll" ,//url
+                // data: $('#form1').serialize(),
+                success: function (result) {
+
+                },
+                error : function(error) {
+                    
+                }
+            });
+
+</script>
